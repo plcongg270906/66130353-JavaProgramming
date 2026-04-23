@@ -30,6 +30,8 @@ public class HinhChuNhat {
 		
 		System.out.println("Chu vi của hình chữ nhật là: " + chuVi);
 		System.out.println("Diện tích của hình chữ nhật là: " + dienTich);
+		
+		sc.close();
 	}
 
 }
