@@ -20,10 +20,12 @@ public class Main {
         dsSP.add(new SanPham("SP02", "Vitamin C", "Thực phẩm chức năng", 150000));
         dsSP.add(new SanPham("SP03", "Bánh quy", "Thực phẩm", 25000));
         
+        System.out.println("Danh sách các sản phẩm:");
         for(SanPham sp : dsSP) {
         	System.out.println(sp.InThongTin());
         }
         
+        System.out.println("Hãy nhập vào 1 sản phẩm mới");
         System.out.print("Nhập mã SP: ");
         String ma = sc.nextLine();
 
@@ -40,9 +42,12 @@ public class Main {
 
         dsSP.add(spMoi);
         
+        System.out.println("Danh sách các sản phẩm sau khi thêm mới:");
         for(SanPham sp : dsSP) {
         	System.out.println(sp.InThongTin());
         }
+        
+        System.out.println("Danh sách các sản phẩm thuộc loại Thực phẩm chức năng:");
         for(SanPham sp : dsSP) {
         	if(sp.getLoaiSP().trim().equalsIgnoreCase("Thực phẩm chức năng"))
         	System.out.println(sp.InThongTin());
