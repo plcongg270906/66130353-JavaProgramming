@@ -36,6 +36,14 @@
 - `GridPane`: bố cục giao diện
 - `HBox`: chứa các nút theo hàng ngang
 
+## Demo chạy thử
+
+Test phép chia:
+![Phép chia](pic1.png)
+
+Test phép nhân:
+![Phép chia](pic2.png)
+
 ## Tác giả
 
 - PLCongg
