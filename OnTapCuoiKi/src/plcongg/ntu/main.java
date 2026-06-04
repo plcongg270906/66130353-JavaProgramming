@@ -88,6 +88,26 @@ public class main {
 		for (test sv : ds) {
 			System.out.println(sv);
 		}
+		//Một số dạng khác:
+//		int xeCon = 0;
+//		int xeTai = 0;
+//
+//		for(Xe x : ds){
+//		    if(x instanceof XeCon)
+//		        xeCon++;
+//		    else if(x instanceof XeTai)
+//		        xeTai++;
+//		}
+		//Dạng xóa phần tử trùng
+//		for(int i = 0; i < ds.size(); i++){
+//		    for(int j = i + 1; j < ds.size(); j++){
+//		        if(ds.get(i).getMaSV()
+//		                .equalsIgnoreCase(ds.get(j).getMaSV())){
+//		            ds.remove(j);
+//		            j--;
+//		        }
+//		    }
+//		}
 	}
 
 }
