@@ -108,6 +108,33 @@ public class main {
 //		        }
 //		    }
 //		}
+		//Dạng chuỗi đối xứng
+//		boolean doiXung = true;
+//
+//		for (int i = 0; i < s.length() / 2; i++) {
+//		    if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {
+//		        doiXung = false;
+//		        break;
+//		    }
+//		}
+		//Dạng đảo chuỗi
+		//cách 1:
+//		String s = "Hello";
+//		String dao = "";
+//
+//		for (int i = s.length() - 1; i >= 0; i--) {
+//		    dao += s.charAt(i);
+//		}
+//
+//		System.out.println(dao);
+		//cách 2:
+//		String s = "Hello";
+//
+//		char[] arr = s.toCharArray();
+//
+//		for (int i = arr.length - 1; i >= 0; i--) {
+//		    System.out.print(arr[i]);
+//		}
 	}
 
 }
