@@ -1,0 +1,5 @@
+Nguyễn Văn A; 7.5
+Trần Thị B; 8.0
+Lê Văn C; 5.5
+Phùng Thanh L; 9.0
+Đào Duy G; 7.0 

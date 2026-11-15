@@ -95,6 +95,23 @@ public class Main1 {
 //                sv.xuat();
 //            }
 //        }
+        //Chuyển từ chuỗi thành số
+//        int x = Integer.parseInt(s);
+//        int x = Integer.valueOf(s);
+        //chuyển từ số thành chuỗi
+//        String.valueOf(x);
+        //Đếm số chữ số
+//        String s = "ab12c3";
+//        int dem = 0;
+//
+//        for (int i = 0; i < s.length(); i++) {
+//            if (Character.isDigit(s.charAt(i))) {
+//                dem++;
+//            }
+//        }
+//
+//        System.out.println(dem);
+        
 	}
 
 }
